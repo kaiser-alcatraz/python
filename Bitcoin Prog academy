@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+
+Currencies = {"USD": 1.0, "BTC": 0,000049,}
+
+def conveyor(summ:float, current:str, received:str)->float:
+heft = summ / Currencies[current]
+return round(heft * Currencies[received], 2)
